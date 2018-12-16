@@ -1,7 +1,7 @@
 const breakOut = (array, changeValue, stopValue) => {
   array.forEach((element, index, array) => {
     if (element === stopValue) {
-      break;
+      break
     }
     array[index] = changeValue;
   });
