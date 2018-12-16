@@ -8,3 +8,7 @@ const breakOut = (array, changeValue, stopValue) => {
 
   return array;
 };
+
+
+a = ["a", "b", "c", "d", "e"];
+console.log(breakOut(a, "f", "c"));
