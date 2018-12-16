@@ -20,6 +20,17 @@ const keepGoing = (array, changeValue, skipValue) => {
   return array;
 };
 
+const findBy = (array, findFn) => {
+  for(let i = 0; i < array.length; i++) {
+    if findFn(array[i]) {
+      return array[i];
+    }
+    array[i] = changeValue;
+  };
+
+  return null;
+};
+
 //
 // a = ["a", "b", "c", "d", "e"];
 // console.log(breakOut(a, "f", "c"));
