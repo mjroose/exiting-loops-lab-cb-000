@@ -5,6 +5,6 @@ const breakOut = (array, changeValue, stopValue) => {
     }
     array[index] = changeValue;
   });
-  
+
   return array;
 };
