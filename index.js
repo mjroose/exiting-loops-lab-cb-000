@@ -25,7 +25,6 @@ const findBy = (array, findFn) => {
     if findFn(array[i]) {
       return array[i];
     }
-    array[i] = changeValue;
   };
 
   return null;
