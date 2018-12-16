@@ -1,9 +1,9 @@
 const breakOut = (array, changeValue, stopValue) => {
-  array.forEach((element, index, array) => {
+  for(let i = 0; i < array.length(); i++) {
     if (element === stopValue) {
-      break
+      break;
     }
-    array[index] = changeValue;
+    array[i] = changeValue;
   });
 
   return array;
